@@ -145,6 +145,13 @@ main button with icon
 
 }
 
+.blog-button{
+  padding: 5px;
+  font-weight: 600;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
 .image-details{
   width: 312px;
   height: 362px;
@@ -152,19 +159,28 @@ main button with icon
   border-radius: 10px;
   margin-left: 24px;
   margin-bottom: 24px;
+  font-weight: 600;
+}
+.image-details p {
+  margin-left: 20px;
 }
 
 
 .icon-div {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
   
-.paragraph img{
-  margin-right: 10px;
+.icon-div .paragraph img{
+  /* margin-right: 15px; */
   margin-top: 10px;
   
+}
+.icon-div .paragraph span{
+  margin-top: 0;
+  margin-left: 15px;
+  padding-top: 0;
 }
 /*--------------------------------------
                    blog bar done for now 
