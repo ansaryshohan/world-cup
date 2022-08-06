@@ -88,6 +88,11 @@ main button with icon
 
 /* 2nd Section start############ */
 
+.second-section{
+  display: flex;
+  justify-content: center;
+}
+
 .side-menu {
   background-color: #161616;
   width: 312px;
@@ -118,12 +123,19 @@ main button with icon
 
 }
 
+#selected-one{
+  background-color: #DD0000;
+  border-radius: 10px;
+}
+
 /* 2nd Section Side menu done */
 
 .news-bar{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
+  margin-left: 24px;
+
 }
 
 .image-details{
@@ -131,6 +143,8 @@ main button with icon
   height: 362px;
   border: 1px solid #E8E8E8;
   border-radius: 10px;
+  margin-left: 24px;
+  margin-bottom: 24px;
 }
 
 
@@ -146,3 +160,4 @@ main button with icon
   
 }
 /* blog bar done for now */
+
