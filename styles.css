@@ -1,0 +1,80 @@
+/* common styles */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+
+  display: flex;
+  height: 646px;
+  width: 1321px;
+  background-color: #161616;
+  border: 1px solid #161616;
+  border-radius: 10px;
+  justify-items: center;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+
+
+}
+
+.details {
+  width: 531px;
+  height: 424px;
+  color: antiquewhite;
+  padding-left: 30px;
+
+  margin: 111px 0 111px 106px;
+}
+
+h1 {
+  font-size: 36px;
+
+}
+
+.image img {
+  Width: 581px;
+  Height: 613px;
+  margin-bottom: none;
+}
+
+/*----------------------
+ main button done ---------------
+-----------------------*/
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 187px;
+  height: 56px;
+  background-color: rgb(69, 110, 231);
+  border: 1px solid blue;
+  font-size: 20px;
+  font-weight: 900;
+  border-radius: 20px;
+  color: white;
+
+}
+
+.main-button {
+  text-decoration: none;
+  margin: 10px 5px 5px;
+  padding: 5px 5px;
+  color: antiquewhite;
+}
+
+.main-icon {
+  height: 1fr;
+  width: 1fr;
+}
+
+.fa-greater-than {
+  color: antiquewhite;
+  font-size: 20px;
+}
+
+/* --------------------
+main button with icon 
+----------------------*/
