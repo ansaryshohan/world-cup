@@ -242,52 +242,54 @@ main button with icon
 ------------------------------------ */
 
 @media screen and (max-width:576px) {
-  body {
-    margin: 0;
-  }
+  
+  /* ------------------------------------------------------------------ */
+  /* ----------------------------------------------------------------------- */
+  /* --------------------------------------------------------------------------- */
+   
+.container {
+ 
+  height: 900px;
+  width: 500px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-items: center;
+  align-items: center;
+  margin:0;
 
-  .container {
-    width: 100%;
-    margin-top: 0;
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: left;
+}
 
-  }
+.details {
+  width: 450px;
+  height: 424px;
+  color: antiquewhite;
+  text-align: justify ;
+  padding-top: 5px;
 
-  .details {
-    width: 75%;
-    color: antiquewhite;
-    text-align: center;
-    justify-content: left;
+  margin: 5px 5px 10px 5px;
+}
+
+h1 {
+  font-size: 36px;
+
+}
+
+.image img {
+  Width: 481px;
+  Height: 513px;
+  margin-bottom: none;
+}
 
 
-  }
+.main-button {
+  text-decoration: none;
+  margin: 10px 5px 5px;
+  padding: 5px 10px;
+  color: antiquewhite;
+}
 
-  h1 {
-    font-size: 26px;
-  }
-
-
-  .image img {
-    height: 245px;
-    width: 243px;
-    margin-top: 220px;
-  }
-
-  .button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10px;
-    height: 40px;
-    background-color: rgb(69, 110, 231);
-    border: 1px solid blue;
-    font-size: 15px;
-    font-weight: 700;
-    border-radius: 10px;
-    color: white;
-  }
+/* -------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------- */
 
   .second-section {
     display: grid;
@@ -302,6 +304,9 @@ main button with icon
     width: 280px;
     height: 280px;
     border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin: 30px auto;
     display: grid;
     grid-template-columns: repeat(1 1fr);
     align-items: center;
@@ -328,6 +333,7 @@ main button with icon
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     justify-items: center;
+    align-items: center;
   }
 
   .image-details {
@@ -349,10 +355,13 @@ main button with icon
   .tablet-button {
     visibility: none;
   }
+  #tablet{
+    visibility:hidden;
+  }
 
 
   .footer {
-    margin-top: 50px;
+    margin-top: 0px;
     width: 100%;
   }
 
@@ -389,9 +398,13 @@ main button with icon
 
 }
 
-/*------------------------------------
-             Responsiveness for tablet
------------------------------------ */
+/*--------------------------------------------------
+------------responsive for mobile done------------
+-------------------------------------------------*/
+
+/*-----------------------------------------------
+-----------Responsiveness for tablet---------------
+----------------------------------------------- */
 
 
 @media screen and (min-width:577px) and (max-width:992px) {
